@@ -190,10 +190,8 @@ int matrix[][] = {
 
 ---
 
-## GitHub Formatting Guide
-- **Use tables for structured data.**
-- **Use fenced code blocks for syntax highlighting.**
-- **Use escape sequences for special characters in Java strings.**
-- **Use visuals like diagrams (if needed) for better understanding.**
+### ✅ Next: [Chapter 4 - Opeators](./Ch3_Datatypes_variables_arrays.md)
+---Soon---
+
 
 ---

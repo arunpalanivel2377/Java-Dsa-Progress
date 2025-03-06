@@ -84,4 +84,5 @@ Java's flexibility, platform independence, and rich ecosystem make it one of the
 
 ---
 
-🔹 **Next Chapter:** Data Types, Variables, and Arrays →
+### ✅ Next: [Chapter 3 - Data Types, Variables and Arrays](./Ch3_Datatypes_variables_arrays.md)
+  
