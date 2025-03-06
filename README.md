@@ -5,12 +5,13 @@ I am documenting everything as I learn from *The Complete Reference Java* and DS
 
 ## 📌 Structure of this Repo  
 
+```
 📂 Java-Dsa-Progress
 │── 📁 Java (Java Notes & Code)
 │── 📁 DSA (Data Structures & Algorithms)
 │── 📜 README.md (This file)
 
-
+```
 # Java & DSA Learning Progress 🚀  
 
 This repository documents my learning journey in **Java and Data Structures & Algorithms (DSA)**.  
