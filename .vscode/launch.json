@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Class",
+            "request": "launch",
+            "mainClass": "Java.Code.Class",
+            "projectName": "Java-Dsa-Progress_e7e5804b"
+        },
+        {
+            "type": "java",
             "name": "ControlStatements",
             "request": "launch",
             "mainClass": "Java.Code.ControlStatements",
