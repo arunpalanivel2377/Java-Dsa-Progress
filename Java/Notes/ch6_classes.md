@@ -18,7 +18,7 @@ An object is an instance of a class. It is created using the new keyword.
 
 ## Object Declaration
 
-```
+```java
 MyClass obj = new MyClass();  // Creates an object of MyClass
 ```
 ---
