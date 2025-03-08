@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ControlStatements",
+            "request": "launch",
+            "mainClass": "Java.Code.ControlStatements",
+            "projectName": "Java-Dsa-Progress_e7e5804b"
+        },
+        {
+            "type": "java",
+            "name": "ch2",
+            "request": "launch",
+            "mainClass": "Java.Code.ch2",
+            "projectName": "Java-Dsa-Progress_e7e5804b"
+        },
+        {
+            "type": "java",
+            "name": "ch1",
+            "request": "launch",
+            "mainClass": "Java.Code.ch1",
+            "projectName": "Java-Dsa-Progress_e7e5804b"
+        },
+        {
+            "type": "java",
+            "name": "Run Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Run Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "Java-Dsa-Progress"
+        },
+        {
+            "type": "java",
+            "name": "Run ch1",
+            "request": "launch",
+            "mainClass": "Java.Code.ch1",
+            "projectName": "Java-Dsa-Progress"
+        }
+    ]
+}
