@@ -4,7 +4,7 @@ A class is a blueprint for creating objects. It defines fields (variables) and m
 ## Class Declaration
 A class is declared using the class keyword:
 
-```
+```java
 public class MyClass {
     int x = 10; // Instance variable
 
