@@ -21,8 +21,8 @@ An object is an instance of a class. It is created using the new keyword.
 ```java
 MyClass obj = new MyClass();  // Creates an object of MyClass
 ```
+
 ---
 obj is a reference variable that stores the memory address of the created object.
 The new keyword allocates memory for the object on the heap.
 Each object gets its own copy of instance variables.
----
