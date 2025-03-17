@@ -3,6 +3,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pattern4",
+            "request": "launch",
+            "mainClass": "LogicBuilding.patterns.Pattern4",
+            "projectName": "Java-Dsa-Progress_e7e5804b"
+        },
+        {
+            "type": "java",
+            "name": "Pattern3",
+            "request": "launch",
+            "mainClass": "LogicBuilding.patterns.Pattern3",
+            "projectName": "Java-Dsa-Progress_e7e5804b"
+        },
+        {
+            "type": "java",
+            "name": "Pattern2",
+            "request": "launch",
+            "mainClass": "LogicBuilding.patterns.Pattern2",
+            "projectName": "Java-Dsa-Progress_e7e5804b"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1",
+            "request": "launch",
+            "mainClass": "LogicBuilding.patterns.Pattern1",
+            "projectName": "Java-Dsa-Progress_e7e5804b"
+        },
+        {
+            "type": "java",
+            "name": "multiArray",
+            "request": "launch",
+            "mainClass": "Java.Code.multiArray",
+            "projectName": "Java-Dsa-Progress_e7e5804b"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "Java.Code.Operators",
+            "projectName": "Java-Dsa-Progress_e7e5804b"
+        },
+        {
+            "type": "java",
             "name": "Class",
             "request": "launch",
             "mainClass": "Java.Code.Class",
