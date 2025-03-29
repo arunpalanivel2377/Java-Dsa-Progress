@@ -1,3 +1,8 @@
 # Default ignored files
+Java-Dsa-Progress.iml
+.gitkeep
+.idea/
+out/
+
 /shelf/
 /workspace.xml
