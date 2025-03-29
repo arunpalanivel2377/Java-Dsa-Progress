@@ -33,7 +33,7 @@ package LogicBuilding.patterns;
 
 import java.util.Scanner;
 
-public class pattern11 {
+public class Pattern11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
