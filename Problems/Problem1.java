@@ -21,12 +21,18 @@ Explanation: 2 and 3, none of them divide 23 evenly.
 
 package Problems;
 
+import java.util.Scanner;
+
 public class Problem1 {
     public static void main(String[] args){
-        int number = 23;
+        Scanner scanner = new Scanner(System.in);
+
+        int number = scanner.nextInt();
         int m = number;
         int result = 0;
+
         while(m!= 0){
+            
             int last = m % 10;
 
             if ((last != 0) && ((number % last) == 0)) result += 1;
