@@ -27,11 +27,19 @@ outter loop is for rows and
 inner loop is for colums
 inner loop will print and contains logic.
 
-Logic:
-outer loop will run from 0 to (2 * n -1) times.
-1 to n spaces and then n-1 to 1 spaces.
-if (row > n) print ((2 * n)-i)-1 stars.
-else print(i+1) stars.
+### **Logic:**
+- The **outer loop** runs from `i = 0` to `(2 * N - 1)`, controlling the number of rows.
+
+- In each row, we handle **two conditions**:
+
+  1. **First Half (Increasing Stars)**
+     - If `i < N`, print `(i + 1)` stars.
+
+  2. **Second Half (Decreasing Stars)**
+     - If `i >= N`, print `((2 * N) - i - 1)` stars.
+
+- **No spaces are needed** in this pattern.
+
 
 
  */
@@ -42,32 +50,25 @@ import java.util.Scanner;
 
 public class Pattern10 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
+
         for(int i = 0; i < 2 * n -1; i++){
+
             int stars = i + 1;
+
             if ( i >= n ) stars = ((2 * n)-i)-1;
+
             for(int j = 0; j < stars; j++){
                 System.out.print("*");
             }
+            
             System.out.println();
         }
 
 
-        /*
-          for(int i = 0; i < n; i++){
-            for(int j = 0; j < i+1;j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        for(int i = 0; i < n-1;i++){
-            for(int j = 0; j < n-i-1;j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-         */
+        scanner.close();
         
     }
 }

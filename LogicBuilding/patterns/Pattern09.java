@@ -30,26 +30,23 @@ outter loop is for rows and
 inner loop is for colums
 inner loop will print and contains logic.
 
-Logic: 
-Outer loop will start from 1 to n for the rows
-We have to take care about three things:
-1. Print Spaces before the star.
-2. print the stars
-3. print the spaces after the stars.
+### **Logic:**  
+- The **outer loop** runs twice:
+  1. **First half (Upper Pyramid)** → from `i = 0` to `i < N`
+  2. **Second half (Inverted Pyramid)** → from `i = 0` to `i < N`
 
+- In each row, we take care of three things:
 
-n = 3
-at first line we have 2 spaces, 1 star, 2 spaces, which means n - i - 1 spaces, 2 * i + 1 stars, again n - i - 1 spaces.
+#### **First Half (Upper Pyramid)**
+  1. **Print spaces before stars** → `(N - i - 1)` spaces.
+  2. **Print stars** → `(2 * i + 1)` stars.
+  3. **Print spaces after stars** → `(N - i - 1)` spaces (not needed for output formatting).
 
-i) Outer loop will start from 1 to n for the rows
-We have to take care about three things:
-1. Print Spaces before the star.
-2. print the stars
-3. print the spaces after the stars.
+#### **Second Half (Inverted Pyramid)**
+  1. **Print spaces before stars** → `i` spaces.
+  2. **Print stars** → `((2 * N) - 1 - 2 * i)` stars.
+  3. **Print spaces after stars** → `i` spaces (not needed for output formatting).
 
-
-n = 3
-at first line we have 0 spaces, 5 star, 0 spaces, which means i spaces, ((2 * n - 1) - i) stars, again i spaces.
 
 
  */
@@ -61,19 +58,24 @@ import java.util.Scanner;
 
 public class Pattern09 {
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
         for(int i = 0; i < n; i++){
+
             for(int j = 0; j < n - i - 1; j++){
                 System.out.print(" ");
             }
+
             for(int j = 0; j <  2 * i+1;j++){
                 System.out.print("*");
             }
+
             for(int j = 0; j < n - i - 1;j++){
                 System.out.print(" ");
             }
+
             System.out.println();
         }
         for(int i = 0; i < n; i++){
@@ -85,10 +87,13 @@ public class Pattern09 {
             for(int j = i; j < ((2 * n)-1)-i;j++){
                 System.out.print("*");
             }
+
             for(int j = 0; j < i;j++){
                 System.out.print(" ");
             }
+
             System.out.println();
         }
+        scanner.close();
     }
 }

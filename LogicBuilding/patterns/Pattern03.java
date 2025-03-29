@@ -20,8 +20,11 @@ outter loop is for rows and
 inner loop is for colums
 inner loop will print and contains logic.
 
-Logic:
-Print j, when i == j 
+
+### **Logic:**  
+- The outer loop runs from 1 to N, controlling the number of rows.  
+- The inner loop runs from 1 to i, printing numbers from 1 to i in each row.  
+
 
  */
 
@@ -32,15 +35,20 @@ import java.util.Scanner;
 public class Pattern03 {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
         for(int i=1; i< n+1; i++){
+
             for(int j=1; j < i+1; j++){
-            System.out.print(j + " ");
+                System.out.print(j + " ");
             }
+
         System.out.println();
+
         }
+        scanner.close();
 
     }
     
