@@ -1,36 +1,34 @@
 /*
- 
 Input Format: N = 3
-Result: 
-A
-A B
+Result:
+C
+B C
 A B C
 
 Input Format: N = 6
-Result:   
-A
-A B
-A B C
-A B C D
-A B C D E
+Result:
+F
+E F
+D E F
+C D E F
+B C D E F
 A B C D E F
  */
 
- //Hello Guys
 package LogicBuilding.patterns;
- 
 
 import java.util.Scanner;
-public class Pattern14 {
-    public static void main(String[] args) {
+
+public class Pattern18 {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        
-        for(int i = 0; i < n;i++){
+        for(int i = 0; i < n; i++){
             char ch = 'A';
-            for(int j = 0; j <=i; j++){
+            ch += n -i-1;
+            for(int j = 0; j <= i; j++){
                 System.out.print(ch + " ");
-                ch += 1;
+                ch +=1;
             }
             System.out.println();
         }
