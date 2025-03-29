@@ -32,7 +32,7 @@ public class Problem1 {
         int result = 0;
 
         while(m!= 0){
-            
+
             int last = m % 10;
 
             if ((last != 0) && ((number % last) == 0)) result += 1;
@@ -40,6 +40,7 @@ public class Problem1 {
             m = m / 10;
         }
         System.out.println(result);
+        scanner.close();
     }
 
 }
